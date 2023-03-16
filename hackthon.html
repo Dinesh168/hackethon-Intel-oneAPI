@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAKE NEWS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>TRUE OR FAKE</h1>
+        <p>Know if your news is true or fake!!!</p>
+    </div>
+
+    <div class="container">
+        <h2>About Us</h2>
+        <p>This is a platform to know if the news you hear, read or come across is true or fake.</p>
+
+        <form>
+            <label for="input-text">Enter your text:</label>
+            <input type="text" id="input-text" name="message">
+            <button type="submit">Submit</button>
+          </form>
+          <br>
+    {{prediction_text}}
+      
+
+    
+</body>
+</html>
